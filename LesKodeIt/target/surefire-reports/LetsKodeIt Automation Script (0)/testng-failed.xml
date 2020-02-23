@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LetsKodeIt Automation Script (0)]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="windows"/>
+  <parameter name="os_version" value="10"/>
+  <parameter name="browserVersion" value="79"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://learn.letskodeit.com/"/>
+  <test thread-count="5" name="Letskodeit Home(failed)" verbose="0">
+    <classes>
+      <class name="testhomepage.TestHomepage">
+        <methods>
+          <include name="alertHandleCancel"/>
+          <include name="testGetTable"/>
+          <include name="afterEachTestMethod"/>
+          <include name="clickOnSelectMultiButton"/>
+          <include name="alertHandleAccept"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+          <include name="clickOnSelectButton"/>
+          <include name="testSelectClassBar"/>
+          <include name="clickOnRadioButton"/>
+          <include name="extentSetup"/>
+          <include name="testMouseHover"/>
+          <include name="testPracticeButton"/>
+          <include name="testNewWindowOpen"/>
+          <include name="generateReport"/>
+          <include name="clickOnCheckButtonBMW"/>
+          <include name="testNewBrowserTabOpen"/>
+          <include name="testIFrame"/>
+        </methods>
+      </class> <!-- testhomepage.TestHomepage -->
+    </classes>
+  </test> <!-- Letskodeit Home(failed) -->
+</suite> <!-- Failed suite [LetsKodeIt Automation Script (0)] -->
